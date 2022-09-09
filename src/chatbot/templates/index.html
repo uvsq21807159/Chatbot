@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>PolluBot</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="uvsq">
+            <img src="{{url_for('static', filename='images/uvsq.png')}}" />
+        </div>
+        <center>
+            <div class="title">
+                <h1><span>  ~ Welcome to Air Pollution Bot~ </span></h1>
+            </div>
+        </center>
+        <div class="logo">
+            <img src="{{url_for('static', filename='images/logo.png')}}" />
+        </div>
+    </div>
+    <main class="chat">
+        <div class="msg bot">
+            <div class="bubble bot">
+                <div class="name bot"></div>
+                <div class="text"></div>
+            </div>
+        </div>
+
+        <div class="msg user">
+            <div class="bubble user">
+                <div class="name user"></div>
+                <div class="text"></div>
+            </div>
+        </div>
+    </main>
+    <div class="msgBox">
+        <input type="text" name="msg" id="msgInput" placeholder="Ask something to PolluBot..." onfocus="placeHolder()">
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <script type="text/javascript">
+        // jQuery Document
+        $(".name:empty").parent().hide();
+        $(document).ready(function () { });
+    </script>
+</body>
+
+</html>

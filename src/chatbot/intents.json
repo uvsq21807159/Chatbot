@@ -1,0 +1,219 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good evening",
+        "Hello There"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello !",
+        "Hello, how can i help you ?",
+        "Hi, what do you want to ask me ?",
+        "Hey, how can i help you ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later ",
+        "Goodbye",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye !",
+        "See you later !",
+        "It was a pleasure helping you",
+        "See you soon !"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you very much !",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "Your welcome",
+        "Glad to have helped you!",
+        "With pleasure <3",
+        "You're welcome, I remain at your disposal!"
+      ]
+    },
+    {
+      "tag": "feeling",
+      "patterns": [
+        "How you doin ?",
+        "How you feel ?",
+        "How are you ?",
+        "You feel good ?"
+      ],
+      "responses": [
+        "I'm great, i hope you are too",
+        "I am fine if you're fine",
+        "I'm feeling good today !"
+      ]
+    },
+    {
+      "tag": "measures",
+      "patterns": [
+        "What is the measure for the concentration of the molecules?",
+        "What are the components of the pollution expressed in?"
+      ],
+      "responses": [
+        "In micrograms (μg/m3)"
+      ]
+    },
+    {
+      "tag": "recent_news",
+      "patterns": [
+        "What is the pollution of the last minutes in France?",
+        "What is the current air quality in each city?",
+        "Give me the live pollution rate across France."
+      ],
+      "responses": []
+    },
+    {
+      "tag": "loc_ranking",
+      "patterns": [
+        "Which are the least polluted cities?",
+        "Which are the most polluted cities?",
+        "Which are the most polluted places?",
+        "Which are the least polluted places?",
+        "How are cities ranked according to their pollution level?",
+        "Give me the ranking of cities according to their air quality index?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "hour_ranking",
+      "patterns": [
+        "What is the air quality index by time of day?",
+        "Does the air quality change during the day?",
+        "Is the air quality worse in the morning or evening?",
+        "Is the air quality worse during the day?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "day_ranking",
+      "patterns": [
+        "What is the air quality index based on the day of the week?",
+        "Does the air quality change during the week?",
+        "Is the air quality worse on the weekend or not?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "max_pollution_hour",
+      "patterns": [
+        "What time of day do we reach peak pollution?",
+        "What time is the pollution highest?",
+        "What time is the air very bad?",
+        "What time of day is it dangerous to go outside because of poor air quality?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "min_pollution_hour",
+      "patterns": [
+        "What time of day is the best air quality?",
+        "What time of day is it least risky to go outside?",
+        "What time is the air good?",
+        "What time is the pollution the lowest?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "max_pollution_day",
+      "patterns": [
+        "Which day is the most polluted?",
+        "Which day is more polluted than the others?",
+        "Which day has the worst air quality?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "min_pollution_day",
+      "patterns": [
+        "Which day is less polluted?",
+        "Which day is less polluted than the others?",
+        "Which day is the air quality good?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "wrong_place_wrong_time",
+      "patterns": [
+        "Where and when is it highly inadvisable to go out?",
+        "Where and when is it very dangerous to leave your home?",
+        "What are the coordinates and time of day when the air quality index is poor?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "wrong_place_wrong_date",
+      "patterns": [
+        "When and where was the pollution level very bad and potentially deadly?",
+        "Where and when was the air quality index extremely high?",
+        "Where and when was it very dangerous to leave your home?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "versailles_current_pollution",
+      "patterns": [
+        "What is the current pollution in Versailles?",
+        "What is the air quality in Versailles in the last few minutes?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "lille_current_pollution",
+      "patterns": [
+        "What is the current pollution in Lille?",
+        "What is the air quality in Lille in the last few minutes?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "nice_current_pollution",
+      "patterns": [
+        "What is the current pollution in Nice?",
+        "What is the air quality in Nice in the last few minutes?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "brest_current_pollution",
+      "patterns": [
+        "What is the current pollution in Brest?",
+        "What is the air quality in Brest in the last few minutes?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "bayonne_current_pollution",
+      "patterns": [
+        "What is the current pollution in Bayonne?",
+        "What is the air quality in Bayonne in the last few minutes?"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "strasbourg_current_pollution",
+      "patterns": [
+        "What is the current pollution in Strasbourg?",
+        "What is the air quality in Strasbourg in the last few minutes?"
+      ],
+      "responses": []
+    }
+  ]
+}
