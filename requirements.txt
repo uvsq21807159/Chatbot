@@ -1,0 +1,9 @@
+numpy
+geopy
+azure-eventhub
+unixodbc-dev
+pyodbc
+nltk
+tensorflow 
+tflearn
+flask
